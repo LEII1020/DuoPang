@@ -14,7 +14,7 @@ public class ball : MonoBehaviour
         if(isRight){
             xVelo = 1f;
         }
-        rb.linearVelocity = new Vector2(x: xVelo * startSpeed, y : yVelo * startSpeed);
+        rb.linearVelocity = new Vector2(xVelo * startSpeed, yVelo * startSpeed);
         print("I am" + rb.gameObject.name + ", and isRight = " + isRight);
     }
 
